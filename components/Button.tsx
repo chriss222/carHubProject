@@ -2,11 +2,9 @@
 
 import React from 'react'
 import Image from 'next/image'
-import { Button } from '@/types';
+import { ButtonProps } from '@/types';
 
-type Props = {}
-
-const Button = ({ btnType, title, containerStyles, handleClick }: Button) => {
+const Button = ({ btnType, title, containerStyles, handleClick }: ButtonProps) => {
   return (
     <button
         disabled={false}
